@@ -4,7 +4,7 @@ xset r rate 190 70
 # user aliases:
 alias py='python'
 #alias ls='ls -F --color=auto'
-alias ls='exa'
+alias ls='exa -F'
 alias l='ls'
 alias la='l -a'
 alias lla='la -l'
