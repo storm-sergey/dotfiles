@@ -13,7 +13,7 @@ alias snvi='sudo nvim'
 alias vi='vim'
 alias nvi='nvim'
 alias rr='ranger'
-alias cat='bat'
+alias cat='bat --color=never'
 
 # bash's greeting
 neofetch 
