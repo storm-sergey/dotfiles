@@ -12,3 +12,6 @@ set incsearch
 set hlsearch
 set nocompatible
 set encoding=UTF-8
+nnoremap <F2> :set invpaste paste?<CR>                                          
+set pastetoggle=<F2>
+set showmode
