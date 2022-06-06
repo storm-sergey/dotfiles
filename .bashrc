@@ -3,17 +3,16 @@ xset r rate 190 70
 
 # user aliases:
 alias py='python'
-#alias ls='ls -F --color=auto'
 alias ls='exa -F'
 alias l='ls'
 alias la='l -a'
 alias lla='la -l'
-alias svi='sudo vim'
-alias snvi='sudo nvim'
-alias vi='vim'
-alias nvi='nvim'
+alias vi='nvim'
+alias svi='sudo nvim'
+alias svim='sudo vim'
 alias rr='ranger'
 alias cat='bat --color=never'
+alias q='exit'
 
 # bash's greeting
 neofetch 
