@@ -15,6 +15,7 @@ set encoding=UTF-8
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+syntax off
 
 call plug#begin()
 Plug 'tmux-plugins/vim-tmux-focus-events'
