@@ -15,7 +15,6 @@ set encoding=UTF-8
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
-syntax off
 
 call plug#begin()
 Plug 'tmux-plugins/vim-tmux-focus-events'
@@ -27,3 +26,5 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+syntax off
