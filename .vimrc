@@ -46,10 +46,10 @@ set clipboard=unnamed
 set hidden
 set novisualbell
 set t_vb=
+set t_Co=256
 
 "python mode
 let python_highlight_all = 1
-set t_Co=256
 
 "NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
@@ -123,6 +123,9 @@ let g:ale_lint_on_insert_leave = 0
 let g:ale_lint_on_enter = 0
 let g:ale_lint_on_save = 1
 let g:ale_floating_window_border = ['│', '─', '╭', '╮', '╯', '╰', '│', '─']
+
+"command-t
+let g:CommandTPreferredImplementation='lua'
 
 syntax on
 colorscheme OceanicNext
