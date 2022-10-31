@@ -46,10 +46,11 @@ set clipboard=unnamed
 set hidden
 set novisualbell
 set t_vb=
-set t_Co=256
+set langmap=!\\"№\\;%?*ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;!@#$%&*`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
 
 "python mode
 let python_highlight_all = 1
+set t_Co=256
 
 "NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
