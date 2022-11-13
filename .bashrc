@@ -1,6 +1,12 @@
 #
 xset r rate 190 70
 
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
+HISTSIZE=10000
+HISTFILESIZE=10000
+
 # user aliases:
 alias py='python'
 alias ls='exa -F'
