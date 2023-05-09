@@ -17,7 +17,7 @@ alias vi='nvim'
 alias svi='sudo nvim'
 alias svim='sudo vim'
 alias rr='ranger'
-alias cat='bat --color=never'
+alias cat='bat -p'
 alias q='exit'
 
 # bash's greeting
