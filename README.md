@@ -14,7 +14,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 curl -fLo "$HOME/.config/nvim/init.vim" --create-dirs \
 https://raw.githubusercontent.com/storm-sergey/dotfiles/master/.config/nvim/init.lua
 ```
-2. make **`Vim-Plug install`**
+2. make in nvim **`:PlugInstall`**
 
 
 
@@ -25,9 +25,9 @@ curl -LJO https://raw.githubusercontent.com/storm-sergey/dotfiles/master/.vimrc
 ```
 ---
 ### Configure
+1. Download config
 ```vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-    
-
+2. make in vim **`:PlugInstall`**
