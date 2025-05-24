@@ -5,13 +5,13 @@
 ### Install **plugins**
 ```bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.lua'
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
 ### Configure
 1. Download config
 ```bash
-curl -fLo "$HOME/.config/nvim/init.vim" --create-dirs \
+curl -fLo "$HOME/.config/nvim/init.lua" --create-dirs \
 https://raw.githubusercontent.com/storm-sergey/dotfiles/master/.config/nvim/init.lua
 ```
 2. make in nvim **`:PlugInstall`**
